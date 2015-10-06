@@ -1,0 +1,30 @@
+h1 {
+  font-family: 'Arvo', serif;
+}
+
+h4 {
+  font-family: 'Arvo', serif;
+  color: #C63D0F;
+}
+
+body {
+  background-color: #ECECEA;
+  font-size: 24px;
+  font-family: Helvetica;
+}
+
+.data {
+  font-family: Helvetica;
+  color: #3B3738;
+}
+
+.text {
+  font-family: Times;
+  color: #008b8b;
+}
+
+.total {
+  font-family: Times;
+  color: #D9853B;
+  
+}
