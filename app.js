@@ -38,7 +38,7 @@ var CookieStand = function (location, minCustHour, maxCustHour, avgCookiesPurch,
   this.makeUL= function(id){
     for (var i=0; i < this.totalCookiesList.length; i++){
       var list = document.getElementById(id);
-      var item = document.createElement("ul");
+      var item = document.createElement("li");
       item.appendChild(document.createTextNode(hoursOfOps[i] + ': ' + this.totalCookiesList[i] + " cookies"));
       list.appendChild(item);
     }
