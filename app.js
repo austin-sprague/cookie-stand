@@ -8,7 +8,7 @@ var CookieStand = function (location, minCustHour, maxCustHour, avgCookiesPurch,
   this.avgCookiesPurch = avgCookiesPurch; 
   this.totalCookiesList = []; 
   this.id = id;
-
+  this.cookieSum=0;
 
   this.randCustHour = function (){
     return Math.floor(Math.random() * (this.maxCustHour - this.minCustHour + 1) + this.minCustHour);
@@ -54,5 +54,11 @@ var southCenter = new CookieStand('Southcenter Mall', 11,38,1.9,'southcenter');
 var bellevueSquare = new CookieStand('Bellevue Square', 20,48,3.3,'bellevue');
 var alki = new CookieStand('Alki Beach',3,24,2.6,'alki');
 
+var place names = []
+placeNames.push(slu);
+for (var=i; i<placenames.length;i++){
+placeNames[i].maketale()
+}
 
+this.maketable
 
