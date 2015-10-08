@@ -1,5 +1,5 @@
 h1 {
-  font-family: 'Arvo', serif;
+  font-family: 'Arvo', serif
 }
 
 h4 {
@@ -23,8 +23,14 @@ body {
   color: #008b8b;
 }
 
-.total {
+p.one {
   font-family: Times;
-  color: #D9853B;
-  
+  font-style: italic;
+  margin: 20px;
+  background-color: #D9853B;
+  border-style: outset;
+  moz-box-shadow: 5px 5px 5px #777777;
+  box-shad: 5px 5px 5px ;
+  padding: 20px;
 }
+
