@@ -1,36 +1,55 @@
-h1 {
-  font-family: 'Arvo', serif
-}
 
-h4 {
-  font-family: 'Arvo', serif;
-  color: #C63D0F;
-}
 
-body {
-  background-color: #ECECEA;
-  font-size: 18px;
-  font-family: Helvetica;
-}
+      body {
+        padding: 20px
+        background-color: #ECECEA;
+        font-size: 18px;
+        font-family: Helvetica;
+        }
+      
+      h1 {
+        font-family: 'Arvo', serif
+      }
 
-.data {
-  font-family: Helvetica;
-  color: #3B3738;
-}
+      h2, h3, h4 {
+          font-family: 'Arvo', serif;
+          color: #C63D0F;
+      }
 
-.text {
-  font-family: Times;
-  color: #008b8b;
-}
+      p {
+        font-family: Times;
+        color: #008b8b;
+      }
+      p.one {
+        font-family: Times;
+        font-style: italic;
+        margin: 20px;
+        color: white;
+        background-color: #D9853B;
+        padding: 20px;
+      }
+      p.data{
+        font-family: Helvetica;
+        color: #3B3738;
+      }
+      a {
+        text-decoration: none;
+      }
+      a:link{
+        color: red;
+        text-decoration: none;
+      }
 
-p.one {
-  font-family: Times;
-  font-style: italic;
-  margin: 20px;
-  background-color: #D9853B;
-  border-style: outset;
-  moz-box-shadow: 5px 5px 5px #777777;
-  box-shad: 5px 5px 5px ;
-  padding: 20px;
-}
+      a:hover{
+        color:red;
+        text-decoration: underline;
+      }
+
+      a:visited{
+        color:black;
+      }
+
+
+  
+
 
