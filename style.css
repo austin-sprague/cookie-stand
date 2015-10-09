@@ -28,28 +28,17 @@
         background-color: #D9853B;
         padding: 20px;
       }
+      p.two {
+        font-family: Times;
+        margin: 20px;
+        color: white;
+        background-color: #D9853B;
+        padding: 20px;
       p.data{
         font-family: Helvetica;
         color: #3B3738;
       }
-      a {
-        text-decoration: none;
-      }
-      a:link{
-        color: red;
-        text-decoration: none;
-      }
-
-      a:hover{
-        color:red;
-        text-decoration: underline;
-      }
-
-      a:visited{
-        color:black;
-      }
-
-
+      
   
 
 

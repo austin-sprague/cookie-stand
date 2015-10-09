@@ -10,39 +10,63 @@
 
   <img src= 'img/salmon.png' width = '300'/>
 
-  <h1>Pat's Salmon Cookies</h1>
+  <h1>Pat's Salmon Cookies Store Data</h1>
 
-<form>
-  Location:<br>
-  <input type="text" name="location">
-  <br>
-  Min Customer:<br>
-  <input type="text" name="min customer">
-  <br>
-  Max Cookeies per Customer:<br>
-  <input type="text" name="max customer">
-  <br>
-  Average cookies per Customer:<br>
-  <input type="text" name="avg cookies cust">
-  <br>
+    <form>
+      <br>Add a New Store:
+      <br>
+      Location<br>
+      <input type="text" name="location">
+      <br>
+      Min Cookies per Customer<br>
+      <input type="text" name="min customer">
+      <br>
+      Max Cookies per Customer<br>
+      <input type="text" name="max customer">
+      <br>
+      Average Cookies per Customer<br>
+      <input type="text" name="avg cookies cust">
+      <br>
 
-</form>
+    </form>
 
-  <h4>Pike Place Market</h4>
-  <ul id="pike"class="data"></ul>
+    <table>
+      <tr>
+        <th>Location</th>
+          
+        <th>10am</th>
+        <th>11am</th>
+        <th>12pm</th>
+        <th>1pm</th>
+        <th>2pm</th>
+        <th>3pm</th>
+        <th>4pm</th>
+        <th>5pm</th>
+        <th>Total</th>
+      </tr>
+   
+      
+      
+      <th>Pike Place</th>
+        <tr id="pike"class="data"></tr> 
 
-  <h4>Seatac Airport</h4>
-  <ul id="seatac" class="data"></ul>
+      <th>Seatac Airport</th>
+        <tr id="seatac" class="data"></tr>
 
-  <h4>Southcenter Mall</h4>
-  <ul id="southcenter" class="data"></ul>
+      <th>Southcenter Mall</th>
+        <tr id="southcenter" class="data"></tr>
 
-  <h4>Bellevue Square</h4>
-  <ul id="bellevue" class="data"></ul>
+      <th>Bellevue Square</th>
+        <tr id="bellevue" class="data"></tr>
 
-  <h4>Alki Beach</h4>
-  <ul id="alki" class="data"></ul>
+      <th>Alki Beach</th>
+        <tr id="alki" class="data"></tr>
+
+  </table>
 
   <script src="app.js"></script>
 </body>
 </html>
+
+
+   
