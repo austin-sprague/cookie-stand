@@ -35,22 +35,20 @@ var CookieStand = function (location, minCustHour, maxCustHour, avgCookiesPurch,
   }; 
   this.totalCookiesDay();
 
-
-
   this.makeTable = function(id){
     var table = document.getElementById('table');
     var row = document.createElement('tr');
+    row.appendChild(document.createTextNode(this.id));
     for (var i=0; i < this.totalCookiesList.length; i++){
       var data = document.createElement('td');
       data.appendChild(document.createTextNode(this.totalCookiesList[i]));
       row.appendChild(data);
     }
     table.appendChild(row);
-    data.appendChild(document.createTextNode('total'));
-    
+    data.appendChild(document.createTextNode(this.totalCookiesDay()));
   }
 
-  this.makeTable(this.id);
+  this.makeTable();
 }; 
 
 var pikePlace = new CookieStand ('Pike Place Market', 17, 88, 5.2,'pike');
