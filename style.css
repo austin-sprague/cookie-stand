@@ -1,21 +1,22 @@
 body {
   font-size: 18px;
   font-family: Helvetica;
+  background: #ECECEA;
   }
 
 h1 {
   font-family: 'Arvo', serif
 }
 
-h2, h3, h4 {
+h4 {
     font-family: 'Arvo', serif;
     color: #C63D0F;
 }
 
 p {
-  font-family: Times;
   color: #008b8b;
 }
+
 p.one {
   font-family: Times;
   font-style: italic;
@@ -24,12 +25,15 @@ p.one {
   background-color: #D9853B;
   padding: 20px;
 }
+
 p.two {
-  font-family: Times;
+ 
   margin: 20px;
   color: white;
   background-color: #D9853B;
   padding: 20px;
+}
+
 p.data{
   font-family: Helvetica;
   color: #3B3738;

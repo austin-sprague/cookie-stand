@@ -10,26 +10,10 @@
 
   <img src= 'img/salmon.png' width = '300'/>
 
-  <h1>Pat's Salmon Cookies Store Data</h1>
+  <h1>Pat's Salmon Cookies </h1>
+  <h4>Store Data</h4>
 
-    <form>
-      <br>Add a New Store:
-      <br>
-      Location<br>
-      <input type="text" name="location">
-      <br>
-      Min Cookies per Customer<br>
-      <input type="text" name="min customer">
-      <br>
-      Max Cookies per Customer<br>
-      <input type="text" name="max customer">
-      <br>
-      Average Cookies per Customer<br>
-      <input type="text" name="avg cookies cust">
-      <br>
-
-    </form>
-
+    
     <table id="table">
       
         <th>Location</th>
@@ -44,7 +28,33 @@
         <th>5pm</th>
         <th>Total</th>
       
-   </table>
+    </table>
+
+    <form id = "newLocationForm">
+      <fieldset>
+      <legend>Add a New Store:</legend>
+      
+      Location<br>
+      <input type="text" name="location">
+      <br>
+      Min Cookies per Customer<br>
+      <input type="value" name="newMinCustHour">
+      <br>
+      Max Cookies per Customer<br>
+      <input type="text" name="newMaxCustHour">
+      <br>
+      Average Cookies per Customer<br>
+      <input type="text" name="newAvgCookiesPurch">
+      <br>
+      Location ID<br>
+      <input type="text" name="newId">
+      <br>
+      <button type="click" input id="addStoreButton" value="click">Submit New Location</button>
+
+      </fieldset>
+
+    </form>
+
 
   <script src="app.js"></script>
 </body>
