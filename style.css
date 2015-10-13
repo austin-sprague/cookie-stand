@@ -1,55 +1,44 @@
+body {
+  font-size: 18px;
+  font-family: Helvetica;
+  background: #ECECEA;
+  }
 
+h1 {
+  font-family: 'Arvo', serif
+}
 
-      body {
-        padding: 20px
-        background-color: #ECECEA;
-        font-size: 18px;
-        font-family: Helvetica;
-        }
+h4 {
+    font-family: 'Arvo', serif;
+    color: #C63D0F;
+}
+
+p {
+  color: #008b8b;
+}
+
+p.one {
+  font-family: Times;
+  font-style: italic;
+  margin: 20px;
+  color: white;
+  background-color: #D9853B;
+  padding: 20px;
+}
+
+p.two {
+ 
+  margin: 20px;
+  color: white;
+  background-color: #D9853B;
+  padding: 20px;
+}
+
+p.data{
+  font-family: Helvetica;
+  color: #3B3738;
+}
       
-      h1 {
-        font-family: 'Arvo', serif
-      }
-
-      h2, h3, h4 {
-          font-family: 'Arvo', serif;
-          color: #C63D0F;
-      }
-
-      p {
-        font-family: Times;
-        color: #008b8b;
-      }
-      p.one {
-        font-family: Times;
-        font-style: italic;
-        margin: 20px;
-        color: white;
-        background-color: #D9853B;
-        padding: 20px;
-      }
-      p.data{
-        font-family: Helvetica;
-        color: #3B3738;
-      }
-      a {
-        text-decoration: none;
-      }
-      a:link{
-        color: red;
-        text-decoration: none;
-      }
-
-      a:hover{
-        color:red;
-        text-decoration: underline;
-      }
-
-      a:visited{
-        color:black;
-      }
-
-
   
 
 
